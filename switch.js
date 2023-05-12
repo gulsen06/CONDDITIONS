@@ -52,20 +52,31 @@ console.log(day);
 
 /// kideme göre alinacak promosyon miktarini gösteren programi yaziniz
 
+llet maas= 1000;
 let kidem = prompt("personelin kidemini giriniz:");
-let maas;
+let promosyon;
+
 switch (kidem) {
-  case "prof":
-    maas = "1000$";
+  case "prof": 
+  {
+    promosyon = maas+1000;
+    console.log(promosyon);
     break;
+  }   
+    
   case "senior":
-    maas = "700$";
-    break;
+    {
+        promosyon = maas+700;
+        console.log(promosyon);
+        break;
+      } 
   case "junior":
-    maas = "300$";
-    break;
+     {
+        promosyon = maas+300;
+        console.log(promosyon);
+        break;
+     }
   default: {
     console.log("100$");
   }
 }
-console.log(maas);
