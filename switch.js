@@ -52,7 +52,7 @@ console.log(day);
 
 /// kideme göre alinacak promosyon miktarini gösteren programi yaziniz
 
-llet maas= 1000;
+let maas= 1000;
 let kidem = prompt("personelin kidemini giriniz:");
 let promosyon;
 

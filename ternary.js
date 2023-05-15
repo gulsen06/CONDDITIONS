@@ -27,5 +27,5 @@ let result =
     ? sayi1 + sayi2
     : operatör === "-"
     ? sayi1 - sayi2
-    : "please enter a valid operatö";
+    : "please enter a valid operatör";
 console.log(result);
